@@ -16,7 +16,7 @@ import skimage.draw
 #import matplotlib.pyplot as plt
 
 # Root directory of the project
-ROOT_DIR = r'D:/Tech Projects/car-damage-detection/Mask_RCNN_damage_detector/'
+ROOT_DIR = r'C:\Users\User\Desktop\car-damage-detector'
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -57,7 +57,7 @@ class CustomDataset(utils.Dataset):
         
         # Train or validation dataset?
         assert subset in ["train", "val"]
-        dataset_dir = os.path.join(dataset_dir + "dataset/" + subset)
+        dataset_dir = os.path.join(dataset_dir + '/' + subset)
       
         # Load annotations
         # VGG Image Annotator saves each image in the form:
