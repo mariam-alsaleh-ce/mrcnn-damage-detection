@@ -1,3 +1,5 @@
+This project is based on [Mask_RCNN repository](https://github.com/matterport/Mask_RCNN) with a few adjustments regarding Tensorflow compatibilities. 
+
 # Mask R-CNN for Car Damage Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of car in the image. It's based on Feature Pyramid Network (FPN) and a ResNet50/ResNet101 backbone.
